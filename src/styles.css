@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script&family=Open+Sans:wght@300;500&family=Roboto&family=Roboto+Slab:wght@200&display=swap");
+body {
+  margin-top: 30px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(126, 70, 195) 0%,
+    rgb(156, 236, 247) 90%
+  );
+  font-family: "Roboto Slab", serif;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.date {
+  text-align: center; /* Center-align the text content */
+  margin: 20px;
+  font-weight: bold;
+}
+
+#city {
+  font-size: 20px;
+  font-weight: bold;
+}
+#current-temp {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#description {
+  font-weight: bold;
+  font-size: 15px;
+}
+#weather {
+  padding: 0;
+  text-align: left;
+  font-weight: bold;
+}
+sup {
+  font-size: 30px;
+}
+#4-day {
+  border: 2px solid black;
+}
+ul {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  padding: 10px 0; /* Add vertical padding for spacing */
+  list-style: none; /* Remove default list styles */
+}
+
+ul li {
+  padding: 3px 8px; /* Adjust padding for list items */
+  margin-right: 10px; /* Add a smaller margin between list items */
+}
+
+@media (min-width: 768px) {
+  .input-group {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+  }
+}
